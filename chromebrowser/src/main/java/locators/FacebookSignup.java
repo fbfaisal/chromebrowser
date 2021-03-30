@@ -7,6 +7,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
+import com.sun.org.apache.bcel.internal.classfile.Utility;
+
 public class FacebookSignup {
 
 	@Test
@@ -22,7 +24,8 @@ public class FacebookSignup {
 		
 		Thread.sleep(3000);
 		driver.findElement(By.xpath("//input[@name='firstname']")).sendKeys("ahamd");
-		
+	
+	
 		WebElement birth_m=driver.findElement(By.xpath("//select[@id='month']"));
 		Select b_month=new Select(birth_m);
 		b_month.selectByIndex(9);
