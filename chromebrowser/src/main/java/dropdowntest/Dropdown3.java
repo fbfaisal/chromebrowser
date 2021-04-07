@@ -1,5 +1,7 @@
 package dropdowntest;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -30,6 +32,15 @@ public void signup() throws InterruptedException {
 		
 		WebElement n_month=b_month.getFirstSelectedOption();
 		System.out.println(n_month.getText());
+		List<WebElement> month_list=b_month.getOptions();
+		
+		for(WebElement ele: month_list) {
+			
+		String Tag_name=ele.getText();
+		
+		System.out.println(Tag_name);
+		}
+		
 		
 		b_month.selectByIndex(8);
 		

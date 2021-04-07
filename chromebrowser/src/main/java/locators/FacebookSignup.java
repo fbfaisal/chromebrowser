@@ -9,6 +9,8 @@ import org.testng.annotations.Test;
 
 import com.sun.org.apache.bcel.internal.classfile.Utility;
 
+import library.Highlighter;
+
 public class FacebookSignup {
 
 	@Test
@@ -22,13 +24,16 @@ public class FacebookSignup {
 		driver.manage().window().maximize();
 		driver.findElement(By.linkText("Create New Account")).click();
 		
-		Thread.sleep(3000);
-		driver.findElement(By.xpath("//input[@name='firstname']")).sendKeys("ahamd");
-	
-	
+		Thread.sleep(5000);
+		
+		WebElement fname=driver.findElement(By.xpath("//input[@name='firstname']"));
+		Highlighter.highLightElement(driver, fname);
+		fname.sendKeys("brad");
+		
 		WebElement birth_m=driver.findElement(By.xpath("//select[@id='month']"));
 		Select b_month=new Select(birth_m);
 		b_month.selectByIndex(9);
+	
 		
 		WebElement birth_d=driver.findElement(By.xpath("//select[@name='birthday_day']"));
 		Select b_day=new Select(birth_d);
