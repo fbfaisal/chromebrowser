@@ -22,7 +22,7 @@ public class HandlePageTitle {
 		Assert.assertTrue(actual_title.contains(expected_title));
 		System.out.println("Page Verified");
 		
-		
+		Utility.CaptureScreenshot(driver, expected_title);
 		
 		
 		

@@ -45,7 +45,14 @@ public class ExcelDataConfig {
 		
 	}
 	
+	public int getrowcount(int sheetindex) {
+		
+	int row=wb.getSheetAt(sheetindex).getLastRowNum();
+	row++;
+	return row;
 	
+	
+	}
 	
 
 }

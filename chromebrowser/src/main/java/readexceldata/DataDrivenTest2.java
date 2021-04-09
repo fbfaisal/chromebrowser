@@ -10,9 +10,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import library.ExcelDataConfig;
-
-public class DataDrivenTest {
+public class DataDrivenTest2 {
 	
 	WebDriver driver;
 	
@@ -37,6 +35,7 @@ public class DataDrivenTest {
 	
 	driver.quit();
 	
+
 	}
 	
 	@AfterMethod
@@ -48,20 +47,17 @@ public class DataDrivenTest {
 	@DataProvider(name="OrangeLive")
 	public Object[][] passdata(){
 	
-	ExcelDataConfig config=new ExcelDataConfig("C:\\Users\\fbfai\\git\\chromebrowser\\chromebrowser\\TestData\\New Microsoft Excel Worksheet.xlsx");
 		
-	int row=config.getrowcount(0);	
+		Object[][] data=new Object[2][2];
+		
+		data[0][0]="admin";
+		data[0][1]="admin123";
+		
+		data[1][0]="admin";
+		data[1][1]="admin1235678";
 	
-	Object[][] data=new Object[row][2];
-	
-	for(int i=0; i<row;i++) {
+		return data;
 		
-		data[i][0]=config.getdata(0, i, 0);
-		data[i][1]=config.getdata(0, i, 1);
-		
-		
-	}
-	return data;	
 	}
 	
 	
