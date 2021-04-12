@@ -1,11 +1,11 @@
-package itest;
+package listeners;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-@Listeners(itest.Listener.class)
+@Listeners(listeners.Listener.class)
 public class FirstTest {
 	
 	
