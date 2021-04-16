@@ -1,0 +1,22 @@
+[INFO ] 2021-04-01 17:47:47.416 [main] Log4jdemo - this is info message
+[ERROR] 2021-04-01 17:47:47.420 [main] Log4jdemo - Error message
+[WARN ] 2021-04-01 17:47:47.420 [main] Log4jdemo - this is a warning message
+[FATAL] 2021-04-01 17:47:47.421 [main] Log4jdemo - this is a fatal message
+[INFO ] 2021-04-01 17:51:42.879 [main] Log4jdemo - Chrome Browser Operned
+[INFO ] 2021-04-01 17:51:53.222 [main] Log4jdemo - Application Launched
+[INFO ] 2021-04-01 17:51:53.358 [main] Log4jdemo - window Maximized
+[INFO ] 2021-04-01 18:47:37.715 [main] Log4jdemo - Chrome Browser Operned
+[INFO ] 2021-04-01 18:47:43.694 [main] Log4jdemo - Application Launched
+[INFO ] 2021-04-01 18:48:01.286 [main] Log4jdemo - Chrome Browser Operned
+[INFO ] 2021-04-01 18:48:11.252 [main] Log4jdemo - Application Launched
+[INFO ] 2021-04-01 18:48:11.516 [main] Log4jdemo - window Maximized
+[INFO ] 2021-04-01 18:48:29.300 [main] Log4jdemo - Chrome Browser Operned
+[INFO ] 2021-04-01 18:48:39.047 [main] Log4jdemo - Application Launched
+[INFO ] 2021-04-01 18:48:39.250 [main] Log4jdemo - window Maximized
+[INFO ] 2021-04-01 18:49:06.881 [main] Log4jdemo - Chrome Browser Operned
+[INFO ] 2021-04-01 18:49:52.532 [main] Log4jdemo - Chrome Browser Operned
+[INFO ] 2021-04-01 18:50:05.413 [main] Log4jdemo - Application Launched
+[INFO ] 2021-04-01 18:50:05.583 [main] Log4jdemo - window Maximized
+[INFO ] 2021-04-05 01:25:25.475 [main] Log4jdemo - Chrome Browser Operned
+[ERROR] 2021-04-05 01:25:37.053 [main] Log4jdemo - Application Launched
+[INFO ] 2021-04-05 01:25:37.389 [main] Log4jdemo - window Maximized
