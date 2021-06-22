@@ -24,8 +24,8 @@ public class MouseHover {
 		Actions act=new Actions(driver);
 		
 		act.moveToElement(driver.findElement(By.xpath("//button[text()='Automation Tools']"))).perform();
-		List<WebElement> list=driver.findElements(By.xpath("//div[@class='dropdown-content']//a"));
-		
+		//List<WebElement> list=driver.findElements(By.xpath("//div[@class='dropdown-content']//a"));
+		List<WebElement> list=driver.findElements(By.xpath("//div[@class='dropdown']/div/a"));
 		
 		for(WebElement ele : list) {
 			

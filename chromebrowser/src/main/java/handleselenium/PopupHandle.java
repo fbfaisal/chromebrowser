@@ -18,6 +18,7 @@ public class PopupHandle {
 		
 		driver.get("https://www.naukri.com");
 		String parent=driver.getWindowHandle();
+		System.out.println(parent);
 		driver.manage().window().maximize();
 		
 		

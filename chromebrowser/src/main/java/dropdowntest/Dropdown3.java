@@ -38,14 +38,14 @@ public void signup() throws InterruptedException {
 			
 		String Tag_name=ele.getText();
 		
-		System.out.println(Tag_name);
+		//System.out.println(Tag_name);
 		}
 		
 		
 		b_month.selectByIndex(8);
 		
 		WebElement s_month=b_month.getFirstSelectedOption();
-		System.out.println(s_month.getText());
+		//System.out.println(s_month.getText());
 		
 }
 }

@@ -21,12 +21,13 @@ public class DropdownTest {
 		driver.manage().window().maximize();
 		driver.findElement(By.linkText("Create New Account")).click();
 		
-		
+
 		WebElement month_dropdown=driver.findElement(By.id("month"));
 		
 		Select month_DD=new Select(month_dropdown);
 		
 		month_DD.selectByVisibleText("Sep");
+	
 		
 	
 		

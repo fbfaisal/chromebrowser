@@ -19,6 +19,7 @@ public class JavaScriptDemo {
 		Thread.sleep(5000);
 		
 		JavascriptExecutor js= (JavascriptExecutor)driver;
+		
 		WebElement email=driver.findElement(By.name("username"));
 		js.executeScript("arguments[0].value='fbfaisal.qa'", email);
 		

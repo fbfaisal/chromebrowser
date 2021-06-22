@@ -21,6 +21,8 @@ public class Resizable {
 		
 		Actions act=new Actions(driver);
 		
+	
+		
 		driver.switchTo().frame(driver.findElement(By.xpath("//iframe[@class='demo-frame']")));
 		WebElement source=driver.findElement(By.xpath("//div[@id='resizable']"));
 		act.dragAndDropBy(source, 225, 360).perform();

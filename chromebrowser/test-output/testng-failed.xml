@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="reports.EReportScreenshot">
+      <class name="handleselenium.Googleiframe">
         <methods>
-          <include name="setup"/>
-          <include name="teardown"/>
-          <include name="facebooklogin"/>
+          <include name="testMethod"/>
         </methods>
-      </class> <!-- reports.EReportScreenshot -->
+      </class> <!-- handleselenium.Googleiframe -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

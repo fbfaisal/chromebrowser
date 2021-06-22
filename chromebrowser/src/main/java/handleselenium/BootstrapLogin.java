@@ -21,8 +21,8 @@ public class BootstrapLogin {
 		driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
 		
 		
-		driver.findElement(By.id("get_sign_up")).click();
-		driver.switchTo().frame("authiframe");
+		driver.findElement(By.id("get_sign_in")).click();
+		//driver.switchTo().frame("authiframe");
 		driver.findElement(By.xpath("//input[@name='phone']")).sendKeys("123456");
 		
 		

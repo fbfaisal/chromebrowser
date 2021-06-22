@@ -19,6 +19,7 @@ public class DropdownTest2 {
 		driver.manage().window().maximize();
 		
 		
+		
 		WebElement country_dropdown=driver.findElement(By.id("countries"));
 		
 		Select country_DDL=new Select(country_dropdown);
